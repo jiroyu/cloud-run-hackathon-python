@@ -41,7 +41,7 @@ def move():
 
 def myself(data):
     records = GetValue2(data)
-    me = records.get_values('https://python-bot-3i7qytfuqq-uc.a.run.app')
+    me = records.get_values('https://cloud-run-hackathon-python-1-2mlstgvneq-uc.a.run.app')
     x= me['x']
     y= me['y']
     hit=me['wasHit']
